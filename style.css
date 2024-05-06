@@ -1,0 +1,279 @@
+/*---about-us---*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: url(https://www.universetoday.com/wp-content/uploads/2013/11/desk.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #15171f;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 26px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  nav li a:hover {
+    background-color: #0d0e14;
+  }
+
+  .about-us-text {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+  }
+
+  .about-us-text h1{
+    font-size: 70px;
+  }
+
+  .about-us-text p{
+    font-size: 30px;
+  }
+
+  /*---impact---*/
+
+  .typhoon-development{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+
+  .typhoon-image > h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+     color:aliceblue;
+     font-size: 35px;
+  }
+
+  .typhoon-image > h3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+     color:aliceblue;
+     font-size: 27px;
+  }
+
+  .track{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.typhoon-yolanda-info > h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: aliceblue;
+    font-size: 27px;
+}
+
+  .typhoon-yolanda-info > p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: aliceblue;
+    font-size: 25px;
+  }
+  
+  
+  .typhoon-yolanda-info ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    padding-left: 20px;
+    color: aliceblue;
+    font-size: 25px;
+}
+  
+  /*---mitigation*---*/
+
+  .before-typhoon-illustration{
+    margin-left: 60px;
+  }
+
+  .during-typhoon-illustration{
+    margin-left: 60px;
+  }
+
+  .after-typhoon-illustration{
+    margin-left: 60px;
+  }
+  
+  .typhoon-mitigation-info{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    color: aliceblue;
+}
+  
+  .typhoon-mitigation-info > ol{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    padding-left: 20px;
+    color: aliceblue;
+    font-size: 25px;
+  }
+
+  .typhoon-mitigation-info > h1{
+     margin-top: 30px;
+     margin-bottom: 30px;
+     margin-left: 28px;
+     color: aliceblue;
+     font-size: 35px;
+  }
+
+.typhoon-mitigation-info > h2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 28px;
+  color: aliceblue;
+  font-size: 30px;
+}
+
+  .typhoon-mitigation-info > p{
+    margin-top: 30px;
+     margin-bottom: 30px;
+     margin-left: 40px;
+     margin-right: 50px;
+     color: aliceblue;
+     font-size: 25px;
+  }
+
+  .typhoon-mitigation-info ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    padding-left: 20px;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.brainstorming-tools > h1{
+  font-size: 50px;
+  color: aliceblue;
+  margin-top: 40px;
+  margin-left: 60px;
+  font-size: 35px;
+}
+
+.mind-map{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 60px;
+}
+
+.fishbone-diagram{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 60px;
+}
+
+.five-whys{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 60px;
+}
+
+.proposed-solution > h1{
+  margin-top: 30px;
+     margin-bottom: 30px;
+     margin-left: 40px;
+     color: aliceblue;
+     font-size: 35px;
+}
+
+.proposed-solution > p{
+     margin-top: 30px;
+     margin-bottom: 30px;
+     margin-left: 40px;
+     margin-right: 50px;
+     color: aliceblue;
+     font-size: 25px;
+}
+
+/*---sources---*/
+
+.links{
+  color: aliceblue;
+  margin-top: 70px;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.links > h1{
+ margin-left: 15px;
+ margin-bottom: 10px;
+ margin-top: 10px;
+ color: aliceblue;
+ font-size: 35px;
+}
+
+.links p{
+  margin-left: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+ }
+ 
+ 
+ .links a{
+  margin-top: 20px;
+  margin-left: 15px;
+  color: aliceblue;
+ }
+ 
+ 
+ .links ul{
+  color: #fff;
+ }
+ 
+ /*---contact---*/
+
+ .contact-page{
+  margin-top: 130px;
+  margin-left: 70px;
+  color:aliceblue;
+ }
+
+ .contact-page > h1{
+  font-size: 70px;
+ }
+
+.contact-page > p{
+  margin-right: 20px;
+  font-size: 50px;
+}
